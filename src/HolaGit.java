@@ -5,4 +5,9 @@ public class HolaGit {
         int Git = 0;
     }
 
+    public void potencia(int base, int exponente) {
+        int resultado = (int) Math.pow(base, exponente);
+        System.out.println("La potenia de " + base + " ^ " + exponente + " es: " + resultado);
+    }
+
 }
