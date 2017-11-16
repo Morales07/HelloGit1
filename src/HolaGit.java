@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class HolaGit {
     public HolaGit()
     {
@@ -24,4 +23,10 @@ public void dividir() {
         System.out.println("La potenia de " + base + " ^ " + exponente + " es: " + resultado);
     }
 
+    public double suma (double num1, double num2)
+    {
+        double suma;
+        suma = num1 + num2;
+        return suma;
+    }
 }
