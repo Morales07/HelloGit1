@@ -30,6 +30,26 @@ public void dividir() {
         return res;
     }
 
+
+
+    public LinkedList<String> tabla12(){
+
+        LinkedList<String> lista = new LinkedList<>();
+
+        int valor  = 0;
+
+        for (int i = 1; i <= 10 ; i++) {
+
+            valor = 12 * i;
+
+            lista.add("12 * " + i + "= " + valor);
+
+        }
+
+        return lista;
+    }
+
+
     public double suma (double num1, double num2)
     {
         double suma;
