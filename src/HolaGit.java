@@ -1,3 +1,5 @@
+import java.util.LinkedList;
+
 import java.util.Scanner;
 
 public class HolaGit {
@@ -23,5 +25,25 @@ public void dividir() {
         int resultado = (int) Math.pow(base, exponente);
         System.out.println("La potenia de " + base + " ^ " + exponente + " es: " + resultado);
     }
+
+
+
+    public LinkedList<String> tabla12(){
+
+        LinkedList<String> lista = new LinkedList<>();
+
+        int valor  = 0;
+
+        for (int i = 1; i <= 10 ; i++) {
+
+            valor = 12 * i;
+
+            lista.add("12 * " + i + "= " + valor);
+
+        }
+
+        return lista;
+    }
+
 
 }
