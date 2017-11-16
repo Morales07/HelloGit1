@@ -24,4 +24,11 @@ public void dividir() {
         System.out.println("La potenia de " + base + " ^ " + exponente + " es: " + resultado);
     }
 
+    //Metodo resta
+    public Double resta(double num1, double num2){
+        double res;
+        res = num1 - num2;
+        return res;
+    }
+
 }
